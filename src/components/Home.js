@@ -8,7 +8,6 @@ import { POSTER_SIZE, BACKDROP_SIZE, IMAGE_BASE_URL } from "../config/config";
 
 // Components
 import HeroImage from "./HeroImage";
-import Grid from "./Grid";
 import Thumbnail from "./Thumbnail";
 import Spinner from "./Spinner";
 import SearchBar from "./SearchBar";

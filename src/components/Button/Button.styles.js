@@ -14,7 +14,8 @@ export const Wrapper = styled.button`
   transform: all 0.3s;
   outline: none;
   cursor: pointer;
-
+  margin-top:-500px;
+  
   :hover {
     opacity: 0.8;
   }
