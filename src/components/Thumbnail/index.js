@@ -12,7 +12,7 @@ const Thumbnail = ({ image, movieId, clickable, movieHeight }) => {
           <Image src={image} alt="movie-thumb" movieHeight={movieHeight} />
         </Link>
       ) : (
-        <Image src={image} alt="movie-thumb" movieHeight={movieHeight} />
+        <Image src={image} alt="movie-thumb" movieHeight={movieHeight} loading="lazy"/>
       )}
     </React.Fragment>
   );
