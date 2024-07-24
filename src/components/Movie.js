@@ -28,9 +28,10 @@ const Movie = () => {
   if (error) {
     return <h1>Something Went Wrong...</h1>;
   }
+  console.log(movie)
 
   return (
-    <React.Fragment>
+    <React.Fragment >
       <BreadCrump movieTitle={movie.original_title} />
       <MovieInfo movie={movie} />
       <MovieInfoBar
@@ -38,7 +39,8 @@ const Movie = () => {
         budget={movie.budget}
         revenue={movie.revenue}
       />
-      <Grid header="Actors">
+      <Grid header="Actors" >
+        
         {movie.actors.map((actor) => (
           <Actor
             key={actor.credit_id}

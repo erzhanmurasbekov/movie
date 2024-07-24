@@ -4,10 +4,11 @@ import { Wrapper, Content } from "./SearchBar.styles";
 
 import searchIcon from "../../images/search-icon.svg";
 
-const SearchBar = ({ setSearchTerm }) => {
+const SearchBar = ({ setSearchTerm,setShowGrid }) => {
   const [state, setState] = useState("");
   const handleChange = (e) => {
     setState(e.currentTarget.value);
+    setShowGrid(false)
   };
 
   const initial = useRef(true);

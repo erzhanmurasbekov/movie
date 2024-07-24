@@ -9,7 +9,7 @@ const Header = () => {
     <Wrapper>
       <Content>
         <Link to="/">
-          <LogoImg src={RMDBLogo} alt="rmdb-logo" />
+          <h1>Movies by Erzhan</h1>
         </Link>
         <TMDBLogoImg src={TMDBLogo} alt="tmdb-logo" />
       </Content>

@@ -9,7 +9,10 @@ export const Wrapper = styled.div`
     url(${({ image }) => image}), var(--darkGray);
   background-size: 100%, cover;
   height: 500px;
-  position: relative;
+  position: absolute;
+  top:8%;
+  width:100%;
+  
   background-position: center;
   animation: animateHeroImage 1s;
 
@@ -46,6 +49,7 @@ export const Text = styled.div`
 
   p {
     margin-top: 10px;
+    margin-bottom: 10px;
     font-size: var(--fontMedium);
     color: var(--lightGray);
 

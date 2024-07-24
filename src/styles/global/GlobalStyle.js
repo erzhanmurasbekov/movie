@@ -20,6 +20,7 @@ export const GlobalStyle = createGlobalStyle`
         text-decoration: none;
     }
     body{
+        
         font-family: "Inter",san-serif;
         h1{
             font-size: 2rem;
